@@ -1,0 +1,17 @@
+.block {
+    width: 21px;
+    height: 21px;
+    margin: 10px;
+    background: aquamarine;
+}
+
+.header {
+    display: flex;
+    width: 200px;
+    transition-duration: 500ms;
+    transform: translate(-170px);
+}
+.header:hover {
+    transition-duration: 500ms;
+    transform: translate(0);
+}

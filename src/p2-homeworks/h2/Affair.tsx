@@ -12,8 +12,8 @@ function Affair(props: AffairPropsType) {
 
     return (
         <div>
-            // show some text
-
+            <div>{props.affair.name}</div>
+            <div>{props.affair.priority}</div>
             <button onClick={deleteCallback}>X</button>
         </div>
     )
